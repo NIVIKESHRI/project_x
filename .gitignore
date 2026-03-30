@@ -1,0 +1,66 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+
+# Environment variables (contains API keys, passwords)
+.env
+.env.local
+.env.*.local
+
+# Database files (if you have SQLite, but you use MySQL – still exclude any local DB dumps)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Output files
+*.csv
+*.xlsx
+exports/
+output/
+
+# Secrets and tokens
+*_token.txt
+*_key.txt
+*_secret.txt
+credentials.json
+
+# MySQL dump files (if any)
+*.sql
+!schema.sql   # except maybe a schema dump you want to version
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / build
+dist/
+build/
+*.egg-info/
